@@ -1,0 +1,350 @@
+/* FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+/*VARIABLES*/
+:root{
+    --primaryColor: #ac0808;
+    --secondaryColor: #000;
+    --gris: #363639;
+    --titleSize: 50px;
+    --parrafoSize: 18px;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: #000;
+}
+
+/*HEADER*/
+header{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding-top: 20px;
+    background: var(--secondaryColor);
+}
+
+header .bg-music{
+    background-image: url("../img/IMG1.png");
+    background-size: cover;
+    padding: 10px 0;
+    top:18;
+    position: fixed;
+    z-index: 90;
+    width: 100%;
+}
+
+header nav ul li a {
+    color: #ffffff !important;
+    font-size: var(--parrafoSize);
+    font-weight: 50 !important;
+    transition: .4s;
+    
+}
+
+a{
+    background: var(--secondaryColor);
+    margin: 2px;
+}
+
+
+header nav ul li a:hover{
+    color: var(--primaryColor)!important;
+    
+}
+
+header #hero{
+    width: 100%;
+    position: relative;
+    background-image: url("../img/IMG2.png");
+    background-size: cover;
+
+}
+
+header #hero .cont-left h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    text-align: center;
+    width: 90%;
+}
+
+header #hero .cont-left h3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 250;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    width: 85%;
+    text-align: center;
+  
+}
+
+header #hero .cont-left {
+    padding-top: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+header #hero .cont-left h1{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+header #hero .cont-left button{
+    background: var(--primaryColor);
+    color: #ffffff;
+    padding: 12px 40px;
+    font-size: 18px;
+    margin-top: 110px;
+}
+
+header #hero .cont-right{
+    position: relative;
+    padding-top: 40px;
+    z-index: 0;
+
+}
+header #hero .cont-right img{
+    position: relative;
+    left: -20px;
+    width: 420px;
+    height: 420px;
+
+}
+
+header #banner{
+    width: 100%;
+    position: relative;
+    background-image: url("../img/IMG4.png");
+    background-size: cover;
+    height: 64px;
+
+}
+
+/*MAIN*/
+main{
+    width: 100%;
+    position: relative;
+}
+
+main #perfil{
+    width: 100%;
+    position: relative;
+    padding: 150px 0 80px;
+}
+
+main #perfil h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+main #perfil h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+main #estudios{
+    width: 100%;
+    position: relative;
+    padding: 150px 0 80px;
+    background-image: url("../img/IMG5.png");
+    background-size: cover;
+}
+
+main #estudios h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 80%;
+}
+
+main #estudios h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 90%;
+}
+
+main #experiencia{
+    width: 100%;
+    position: relative;
+    padding: 150px 0 60px;
+    background-image: url("../img/IMG6.png");
+    background-size: cover;
+}
+
+main #experiencia h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+main #experiencia h3{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 10px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 85%;
+}
+main #portafolio{
+    width: 100%;
+    position: relative;
+    padding: 100px 0 40px;
+    background-image: url("../img/IMG7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main #portafolio h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 60%;
+}
+
+main #portafolio img{
+
+    width: 92%;
+
+}
+main #contacto{
+    width: 100%;
+    position: relative;
+    padding: 150px 0 60px;
+    background-image: url("../img/IMG8.png");
+    background-size: cover;
+}
+
+main #contacto h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 78%;
+}
+
+main #contacto img{
+
+    width: 95%;
+
+}
+
+
+
+main #habilidades{
+    width: 100%;
+    position: relative;
+    padding: 100px 0 60px;
+    background-image: url("../img/IMG9.png");
+    background-size: cover;
+}
+
+main #habilidades h2{
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    border: 8px solid rgba(255, 0, 0, 0.514);
+    background-color: #5004045b;
+    padding: 15px;
+    text-align: center;
+    width: 65%;
+}
+
+main #habilidades img{
+
+    width: 80%;
+
+}
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    position: relative;
+    background-image: url("../img/IMG4.png");
+    background-size: cover;
+    height: 64px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+main #banner{
+    width: 100%;
+    position: relative;
+    background-image: url("../img/IMG4.png");
+    background-size: cover;
+    height: 64px;
+
+}
+
+main #espacio{
+    width: 100%;
+    position: relative;
+    height: 64px;
+
+}
+
+/* TABLET */
+@media screen and (min-width:700px) and (max-width:990px) {
+    header #hero .cont-left {
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    header #hero .cont-right img{
+        width: 100%;
+        left: 0;
+    }
+    #hero .cont-left button{
+        margin-top: 40px;
+    }
+    
+    #tour article{
+        margin: 2px;
+    }
+
+    nav button.navbar-toggler {
+        border: 1px solid var(--primaryColor);
+    }
+
+}
